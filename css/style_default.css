@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+
+    img {
+        height: 80%;
+    }
+
+    h1 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        color: white;
+    }
+}
+
+footer {
+    border-top: 2px solid black;
+
+    p {
+        font-size: 14px;
+    }
+}
