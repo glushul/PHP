@@ -18,10 +18,19 @@ header {
     }
 }
 
+main {
+    font-size: 14px;
+
+    li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
 footer {
     border-top: 2px solid black;
 
     p {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
