@@ -24,7 +24,7 @@
         <ol>
             <li><a href="labs/lab1.php">Основные элементы и операторы</a></li>
             <li><a href="labs/solve.php">Solve the equation</a></li>
-            <li><a href="labs/lab2.php">Calculator</a></li>
+            <li><a href="labs/lab2.html">Calculator</a></li>
         </ol>
         <h2>Проект</h2>
         <ol>
