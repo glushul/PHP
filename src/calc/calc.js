@@ -13,7 +13,7 @@ function clearDisplay() {
 function calculateResult() {
     const userInput = display.value;
 
-    fetch('lab2.php', {
+    fetch('calc.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',

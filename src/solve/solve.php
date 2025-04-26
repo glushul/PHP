@@ -37,4 +37,4 @@ if ($a === "X") {
 
 echo "РЕЗУЛЬТАТ: X = $x\n";
 ?>
-<img src="../images/block_scheme.png" width="300px">
+<img src="../../images/block_scheme.png" width="300px">
