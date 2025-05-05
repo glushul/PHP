@@ -17,20 +17,20 @@
     <main>
         <h2>Домашние работы</h2>
         <ol>
-            <li><a href="src/hw1/hw1.php">Hello, World!</a></li>
-            <li><a href="src/hw2/hw2.php">Feedback Form</a></li>
+            <li><a href="labs/hw1/hw1.php">Hello, World!</a></li>
+            <li><a href="labs/hw2/hw2.php">Feedback Form</a></li>
         </ol>
         <h2>Лабораторные работы</h2>
         <ol>
-            <li><a href="src/lab1/lab1.php">Лабораторная работа 1</a></li>
-            <li><a href="src/solve/solve.php">Solve the equation</a></li>
-            <li><a href="src/lab2/lab2.php">Лабораторная работа 2</a></li>
-            <li><a href="src/calc/calc.html">Calculator</a></li>
-            <li><a href="src/lab3/lab3.php">Лабораторная работа 3</a></li>
+            <li><a href="labs/lab1/lab1.php">Лабораторная работа 1</a></li>
+            <li><a href="labs/solve/solve.php">Solve the equation</a></li>
+            <li><a href="labs/lab2/lab2.php">Лабораторная работа 2</a></li>
+            <li><a href="labs/calc/calc.html">Calculator</a></li>
+            <li><a href="srlabsc/lab3/lab3.php">Лабораторная работа 3</a></li>
         </ol>
         <h2>Проект</h2>
         <ol>
-            <li><a href="#">Нет</a></li>
+            <li><a href="project/www/index.php">Нет</a></li>
         </ol>
     </main>
 </body>
