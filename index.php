@@ -25,12 +25,13 @@
             <li><a href="labs/lab1/lab1.php">Лабораторная работа 1</a></li>
             <li><a href="labs/solve/solve.php">Solve the equation</a></li>
             <li><a href="labs/lab2/lab2.php">Лабораторная работа 2</a></li>
-            <li><a href="labs/calc/calc.html">Calculator</a></li>
-            <li><a href="srlabsc/lab3/lab3.php">Лабораторная работа 3</a></li>
+            <li><a href="labs/calc/calc.html">Calculator / Eval</a></li>
+            <li><a href="labs/lab3/lab3.php">Лабораторная работа 3</a></li>
+            <li><a href="labs/lab4/lab4.php">Лабораторная работа 4</a></li>
         </ol>
         <h2>Проект</h2>
         <ol>
-            <li><a href="project/www/index.php">Нет</a></li>
+            <li><a href="project/www">Мой блог</a></li>
         </ol>
     </main>
 </body>

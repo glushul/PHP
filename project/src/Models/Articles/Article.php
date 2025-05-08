@@ -2,31 +2,27 @@
 namespace src\Modules\Articles;
 use \src\Modules\Users\user;
 
-class Article{
-    protected $title;
-    protected $text;
-    protected $author;
-    public function __construct(string $title, string $text, $author) {
-        $this->title = $title;
-        $this->text = $text;
-        $this->author = $author;
+class Article {
+    private $id;
+    private $name;
+    private $text;
+    private $authorId;
+    private $createdAt;
+
+    public function __set($name, $value) {
+        $camelCaseName = $this->underscoreToCamelCase($name);
+        $this->$camelCaseName = $value;
     }
-    public function setTitle(string $title) {
-        $this->title = $title;
+    public function getId(): int {
+        return $this->id;
     }
-    public function setText(string $text) {
-        $this->text = $text;
+    public function getName(): string {
+        return $this->name;
     }
-    public function setAuthor(User $author) {
-        $this->author = $author;
-    }
-    public function getTitle() {
-        return $this->title;
-    }
-    public function getText() {
+    public function getText(): string {
         return $this->text;
     }
-    public function getAuthor() {
-        return $this->author;
+    private function underscoreToCamelCase(string $source): string {
+        return lcfirst(str_replace('_', '', ucwords($source, '_')));
     }
 }
