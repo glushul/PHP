@@ -2,6 +2,7 @@
 namespace src\Models\Articles;
 use src\Models\ActiveRecordEntity;
 use src\Models\Users\User;
+use src\Models\Comments\Comment;
 
 class Article extends ActiveRecordEntity {
     protected $id;
@@ -27,6 +28,9 @@ class Article extends ActiveRecordEntity {
     }
     public function getCreatedAt() {
         return $this->createdAt;
+    }
+    public function getComments() {
+        return Comment::getByArticleId($this->id);
     }
     public function setId($id): void {
         $this->id = $id;

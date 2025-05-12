@@ -2,7 +2,7 @@
     </main>
 
     <footer>
-        <small>&copy; 2025 My Blog. All rights reserved.</small>
+        <small>&copy; 2025 Мой блог. Все права защищены.</small>
     </footer>
 
 </body>
