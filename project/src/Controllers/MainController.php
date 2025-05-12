@@ -28,4 +28,7 @@ class MainController {
     public function sayHello(string $name) {
         $this->view->renderHtml('main/hello', ['name'=>$name]);
     }
+    public function sayBye(string $name) {
+        $this->view->renderHtml('main/bye', ['name'=>$name]);
+    }
 }

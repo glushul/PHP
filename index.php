@@ -17,8 +17,8 @@
     <main>
         <h2>Домашние работы</h2>
         <ol>
-            <li><a href="labs/hw1/hw1.php">Hello, World!</a></li>
-            <li><a href="labs/hw2/hw2.php">Feedback Form</a></li>
+            <li><a href="labs/1-hw1/hw1.php">Hello, World!</a></li>
+            <li><a href="labs/1-hw2/hw2.php">Feedback Form</a></li>
         </ol>
         <h2>Лабораторные работы</h2>
         <ol>
@@ -28,6 +28,8 @@
             <li><a href="labs/calc/calc.html">Calculator / Eval</a></li>
             <li><a href="labs/lab3/lab3.php">Лабораторная работа 3</a></li>
             <li><a href="labs/lab4/lab4.php">Лабораторная работа 4</a></li>
+            <li><a href="labs/lab5">Лабораторная работа 5</a></li>
+            <li><a href="labs/lab6/lab6.php">Лабораторная работа 6</a></li>
         </ol>
         <h2>Проект</h2>
         <ol>

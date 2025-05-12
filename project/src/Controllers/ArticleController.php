@@ -2,28 +2,28 @@
 namespace src\Controllers;
 use src\View\View;
 use src\Services\Db;
+use src\Models\Articles\Article;
+
 
 class ArticleController {
     private $view;
     private $db;
     public function __construct() {
         $this->view = new View;
-        $this->db = new Db;
+        $this->db = Db::getInstance();
     }
 
     public function index() {
-        $sql = 'SELECT * FROM `articles`';
-        $articles = $this->db->query($sql);
+        $articles = Article::findAll();
         $this->view->renderHtml('article/index', ['articles'=>$articles]);
     }
 
     public function show($id) {
-        $sql = 'SELECT * FROM `articles` WHERE `id`=:id';
-        $article = $this->db->query($sql, [':id'=>$id]);
+        $article = Article::getById($id);
         if ($article == []) {
             $this->view->renderHtml('error/404', [], 404);
             return;
         }
-        $this->view->renderHtml('article/show', ['article'=>$article[0]]);
+        $this->view->renderHtml('article/show', ['article'=>$article]);
     }
 }
